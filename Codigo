@@ -1,1 +1,6 @@
-
+ALGORITMO CalcularPrecioProducto
+// Mostrar productos ESCRIBIR "Productos: LECHE $22, ARROZ $25.50, AZUCAR $24, FIDEOS $28, HARINA $20"
+// Leer datos LEER precio LEER cantidad
+// Calcular total total <- precio * cantidad
+// Aplicar descuento si aplica SI total > 100 ENTONCES total <- total * 0.85 ESCRIBIR "Descuento 15%: $", total SINO ESCRIBIR "Total: $", total FIN SI
+FIN ALGORITMO
