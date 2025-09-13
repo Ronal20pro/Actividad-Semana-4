@@ -1,3 +1,42 @@
+//PRODUCTOS
+Console.WriteLine("Los productos son los siguientes: ");
+Console.WriteLine("\nLECHE: $22");
+Console.WriteLine("ARROZ: $25.50");
+Console.WriteLine("AZUCAR: $24");
+Console.WriteLine("FIDEOS: $28");
+Console.WriteLine("HARINA: $20");
+
+double precio;
+Console.WriteLine("\nIngrese el precio de un producto: ");
+precio = double.Parse(Console.ReadLine());
+
+double cantidad;
+Console.WriteLine("Cuantas unidades va a llevar: ");
+cantidad = double.Parse(Console.ReadLine());
+
+double resultado1 = 0;
+double resultado2;
+
+if (resultado1 < 100)
+{
+    resultado1 = precio * cantidad;
+    Console.WriteLine("El precio a cancelar es de: ");
+    Console.WriteLine(resultado1);
+}
+
+if (resultado1 > 100)
+{
+    resultado2 = resultado1 - (resultado1 * 15) / 100;
+    Console.WriteLine("Por compras mayores a $100, usted cuenta con 15%");
+    Console.WriteLine("El precio a cancelar ahora es de: ");
+    Console.WriteLine(resultado2);
+}
+
+
+
+//Pseudocodigo 
+
+
 ALGORITMO CalcularPrecioProducto
 // Mostrar productos ESCRIBIR "Productos: LECHE $22, ARROZ $25.50, AZUCAR $24, FIDEOS $28, HARINA $20"
 // Leer datos LEER precio LEER cantidad
